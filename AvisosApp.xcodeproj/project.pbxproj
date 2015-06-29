@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3415729687C7D817B0BF8F48 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F1F91599CB239A703521BA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7916350E1B0E36D600763845 /* AvisoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916350D1B0E36D600763845 /* AvisoCore.swift */; };
+		793E53161B0FBD8C00D7B0B2 /* myCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793E53151B0FBD8C00D7B0B2 /* myCustomCell.swift */; };
+		795B61061B3B5E8B000C974E /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B61051B3B5E8B000C974E /* Firebase.framework */; };
+		795B61081B3B5EC6000C974E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B61071B3B5EC6000C974E /* libicucore.dylib */; };
+		795B610A1B3B5ED0000C974E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B61091B3B5ED0000C974E /* libc++.dylib */; };
+		795B610C1B3B5EDA000C974E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B610B1B3B5EDA000C974E /* CFNetwork.framework */; };
+		795B610E1B3B5EE3000C974E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B610D1B3B5EE3000C974E /* Security.framework */; };
+		795B61101B3B5EF0000C974E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B610F1B3B5EF0000C974E /* SystemConfiguration.framework */; };
+		796005291B40D43F0027AD7A /* VCAvisoDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796005281B40D43F0027AD7A /* VCAvisoDetalle.swift */; };
+		7993C6981B0D27E3000915A2 /* Aviso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993C6971B0D27E3000915A2 /* Aviso.swift */; };
+		7993C69A1B0D3602000915A2 /* ListAvisoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993C6991B0D3602000915A2 /* ListAvisoTableViewController.swift */; };
+		79BD327E1B13A52400225198 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD327D1B13A52400225198 /* CoreLocation.framework */; };
+		79D2D3561B139D8F004135B8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D2D3551B139D8F004135B8 /* DetailViewController.swift */; };
 		79D93E651B0D225C00916995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D93E641B0D225C00916995 /* AppDelegate.swift */; };
 		79D93E681B0D225C00916995 /* AvisosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79D93E661B0D225C00916995 /* AvisosApp.xcdatamodeld */; };
 		79D93E6A1B0D225C00916995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D93E691B0D225C00916995 /* ViewController.swift */; };
@@ -27,6 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		130E96209B9701F55AE1AE44 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		27F1F91599CB239A703521BA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7916350D1B0E36D600763845 /* AvisoCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisoCore.swift; sourceTree = "<group>"; };
+		793E53151B0FBD8C00D7B0B2 /* myCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCustomCell.swift; sourceTree = "<group>"; };
+		795B61051B3B5E8B000C974E /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		795B61071B3B5EC6000C974E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		795B61091B3B5ED0000C974E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		795B610B1B3B5EDA000C974E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		795B610D1B3B5EE3000C974E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		795B610F1B3B5EF0000C974E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		795B61111B3B6049000C974E /* AvisosApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvisosApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		796005281B40D43F0027AD7A /* VCAvisoDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCAvisoDetalle.swift; sourceTree = "<group>"; };
+		7993C6971B0D27E3000915A2 /* Aviso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aviso.swift; sourceTree = "<group>"; };
+		7993C6991B0D3602000915A2 /* ListAvisoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAvisoTableViewController.swift; sourceTree = "<group>"; };
+		79BD327D1B13A52400225198 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		79D2D3551B139D8F004135B8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		79D93E5F1B0D225C00916995 /* AvisosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvisosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D93E631B0D225C00916995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79D93E641B0D225C00916995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +68,7 @@
 		79D93E771B0D225C00916995 /* AvisosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvisosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D93E7C1B0D225C00916995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79D93E7D1B0D225C00916995 /* AvisosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvisosAppTests.swift; sourceTree = "<group>"; };
+		8B5EA04D9C0F9626794B7954 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795B61101B3B5EF0000C974E /* SystemConfiguration.framework in Frameworks */,
+				795B610E1B3B5EE3000C974E /* Security.framework in Frameworks */,
+				795B610C1B3B5EDA000C974E /* CFNetwork.framework in Frameworks */,
+				795B610A1B3B5ED0000C974E /* libc++.dylib in Frameworks */,
+				795B61081B3B5EC6000C974E /* libicucore.dylib in Frameworks */,
+				79BD327E1B13A52400225198 /* CoreLocation.framework in Frameworks */,
+				795B61061B3B5E8B000C974E /* Firebase.framework in Frameworks */,
+				3415729687C7D817B0BF8F48 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +97,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57A3F6B614AEF08F4D3C976F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B5EA04D9C0F9626794B7954 /* Pods.debug.xcconfig */,
+				130E96209B9701F55AE1AE44 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7993C6961B0D27D1000915A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7916350D1B0E36D600763845 /* AvisoCore.swift */,
+				7993C6971B0D27E3000915A2 /* Aviso.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		79D93E561B0D225B00916995 = {
 			isa = PBXGroup;
 			children = (
+				795B61051B3B5E8B000C974E /* Firebase.framework */,
 				79D93E611B0D225C00916995 /* AvisosApp */,
 				79D93E7A1B0D225C00916995 /* AvisosAppTests */,
 				79D93E601B0D225C00916995 /* Products */,
+				57A3F6B614AEF08F4D3C976F /* Pods */,
+				E54A6DB3BFDE8E25ABE777D4 /* Frameworks */,
+				795B61111B3B6049000C974E /* AvisosApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +140,18 @@
 		79D93E611B0D225C00916995 /* AvisosApp */ = {
 			isa = PBXGroup;
 			children = (
+				7993C6961B0D27D1000915A2 /* Model */,
 				79D93E641B0D225C00916995 /* AppDelegate.swift */,
+				796005281B40D43F0027AD7A /* VCAvisoDetalle.swift */,
+				79D2D3551B139D8F004135B8 /* DetailViewController.swift */,
+				7993C6991B0D3602000915A2 /* ListAvisoTableViewController.swift */,
 				79D93E691B0D225C00916995 /* ViewController.swift */,
 				79D93E6B1B0D225C00916995 /* Main.storyboard */,
 				79D93E6E1B0D225C00916995 /* Images.xcassets */,
 				79D93E701B0D225C00916995 /* LaunchScreen.xib */,
 				79D93E661B0D225C00916995 /* AvisosApp.xcdatamodeld */,
 				79D93E621B0D225C00916995 /* Supporting Files */,
+				793E53151B0FBD8C00D7B0B2 /* myCustomCell.swift */,
 			);
 			path = AvisosApp;
 			sourceTree = "<group>";
@@ -115,6 +181,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E54A6DB3BFDE8E25ABE777D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				795B610F1B3B5EF0000C974E /* SystemConfiguration.framework */,
+				795B610D1B3B5EE3000C974E /* Security.framework */,
+				795B610B1B3B5EDA000C974E /* CFNetwork.framework */,
+				795B61091B3B5ED0000C974E /* libc++.dylib */,
+				795B61071B3B5EC6000C974E /* libicucore.dylib */,
+				79BD327D1B13A52400225198 /* CoreLocation.framework */,
+				27F1F91599CB239A703521BA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79D93E811B0D225C00916995 /* Build configuration list for PBXNativeTarget "AvisosApp" */;
 			buildPhases = (
+				69BC75E3F9BD2523863CF29B /* Check Pods Manifest.lock */,
 				79D93E5B1B0D225C00916995 /* Sources */,
 				79D93E5C1B0D225C00916995 /* Frameworks */,
 				79D93E5D1B0D225C00916995 /* Resources */,
+				FFE3B5C53B44AB2E9E8F8E67 /* Embed Pods Frameworks */,
+				CCDDD00B3EE9D26391DBD9DD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +293,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69BC75E3F9BD2523863CF29B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDDD00B3EE9D26391DBD9DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE3B5C53B44AB2E9E8F8E67 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79D93E5B1B0D225C00916995 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7993C6981B0D27E3000915A2 /* Aviso.swift in Sources */,
 				79D93E6A1B0D225C00916995 /* ViewController.swift in Sources */,
 				79D93E681B0D225C00916995 /* AvisosApp.xcdatamodeld in Sources */,
+				7993C69A1B0D3602000915A2 /* ListAvisoTableViewController.swift in Sources */,
 				79D93E651B0D225C00916995 /* AppDelegate.swift in Sources */,
+				793E53161B0FBD8C00D7B0B2 /* myCustomCell.swift in Sources */,
+				7916350E1B0E36D600763845 /* AvisoCore.swift in Sources */,
+				79D2D3561B139D8F004135B8 /* DetailViewController.swift in Sources */,
+				796005291B40D43F0027AD7A /* VCAvisoDetalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +479,36 @@
 		};
 		79D93E821B0D225C00916995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5EA04D9C0F9626794B7954 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AvisosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvisosApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		79D93E831B0D225C00916995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130E96209B9701F55AE1AE44 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = AvisosApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AvisosApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -413,6 +565,7 @@
 				79D93E831B0D225C00916995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79D93E841B0D225C00916995 /* Build configuration list for PBXNativeTarget "AvisosAppTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +574,7 @@
 				79D93E861B0D225C00916995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
